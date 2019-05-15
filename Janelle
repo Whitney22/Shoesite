@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+    
+html{
+    
+  width:100%;
+  height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+    
+}
+
+/* Nav Bar */
+
+
+li{
+    display: inline;
+color: black;
+    text-transform: uppercase;
+    margin-left: 65px;
+}
+nav a{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+    header a li{
+
+       text-transform: uppercase;
+       font-size: 14px;
+
+ }
+
+     /* Body */
+
+.newarrivals{
+
+    width:500px;
+    padding: 20px 15px 30px 0;
+    background-color: black;
+ color: white;
+    font-size:14px; 
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+}
+
+#mainpic{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+
+.howitworks{
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    height: 50%;
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.howitworkstitle{
+    margin-left: 140px;
+}
+
+.howitworksparagraph{
+    text-align: center;
+margin-left: -335px;
+}
+
+
+.howitworksparagraph2{
+    margin-left: 160px;
+    margin-top:-185px;
+
+}
+
+.howitworksparagraph3{
+    margin-left: 370px;
+    margin-top:-195px;
+
+}
+
+.titles1{
+    margin-top:-265;
+    margin-left: 55px;
+}
+
+.titles2{
+    margin-left:230px;
+    margin-top: -8px;
+}
+
+.titles3{
+    margin-left:390px;
+    margin-top:-14px;
+
+}
+
+.btn a{
+    color:#fff;
+}
+
+
+.btn-blue {
+    border: 2px solid #14aecf;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+    background: #14aecf;
+    -webkit-transition: color 0.3s, background 0.3s;
+    -o-transition: color 0.3s, background 0.3s;
+    transition: color 0.3s, background 0.3s;
+}
+
+.btn-blue{display: inline-block;
+    margin-top: -1090px;
+    margin-left: 200px;
+padding: 6px 12px 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+width:150px;
+height:50px;
+}
+
+.btn a:hover {
+color: 
+
+}
+
+
+
+.footer {
+
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
+    margin-top: 200px;        
+}
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    
+        
+                <header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+ 
+
+<br>
+<br><br>
+
+
+        <div class="newarrivalss">
+<h2 class="newarrivals">New Arrivals Daily</h2>
+
+
+        </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">   <img id="mainpic" src="shoes.jpg"  alt="">
+    
+
+            
+        </div>
+    </div>
+    <br>
+    <br>
+   
+            
+        
+                    
+                </div>
+            </div>
+
+           
+    <div class="howitworks">
+       <article>
+            <h2 class="howitworkstitle">How It Works</h2>
+            <hr>
+            <br>
+          
+           
+            <p class="howitworksparagraph"><a href="#"><img src="shopping.png" width="15%" alt=""> </a></p><br>
+            <div class="how1"><a href="#"><h3 class="titles1"> SHOP</h3></a></div> 
+                <p class="howitworksparagraph2"><a href="#"> <img src="subscribe.png" width="50%" alt=""></p> <br>
+                <div><h3 class="titles2"> JOIN</h3></a></div>
+                <p class="howitworksparagraph3"><a href="#"><img src="phone.png" width="120px" alt=""></p>
+                <br>
+                <div> <h3 class="titles3"> CANCEL 
+                   <br> ANYTIME</a><h3></div>
+                </div>
+        </article>
+    </div>
+
+<div class="btn-blue">
+    <p class="btn"><a href="#">SHOP NOW</a></p>
+</div>
+
+
+
+<div class="footer">
+        <p>&copy; 2018</p>
+      </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
